@@ -18,7 +18,7 @@ public class Library {
 // ex1
         System.out.println("use lambda with interface");
         // in this example I build interface and create methode on it that crete lambda based on calculate (abstract methode)
-        LAMBDA lambda= ( x)->System.out.println(2*x);
+        RerInterface lambda= (x)->System.out.println(2*x);
         lambda.calculate(100);
 
 // ex2
@@ -74,11 +74,17 @@ public class Library {
 
 
 
-
+RerInterface refferance=Library::printString;
 
 
 
 
 
     }
+
+    private static void printString(int i) {
+        System.out.println("Hi");
+    }
+
+
 }
