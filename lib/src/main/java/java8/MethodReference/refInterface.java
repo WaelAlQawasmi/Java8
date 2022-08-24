@@ -1,6 +1,6 @@
 package java8.MethodReference;
 
-public interface LAMBDA {
+public interface refInterface {
     void calculate(int x);
 
     default void java8Defult(){ // in java 8 you can add un abstract methode

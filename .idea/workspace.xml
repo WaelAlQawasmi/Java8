@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d866e4f-9434-4fd2-87e7-fe3309830bfe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/java8/MethodReference/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/java8/MethodReference/merhodeReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/java8/RerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/java8/Optional/OPTIONAL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/java8/LAMBDA.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/java8/MethodReference/LAMBDA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/java8/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/java8/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/java8/MethodReference/LAMBDA.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/java8/MethodReference/refInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/java8/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/java8/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +45,40 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/src/main/java/java8" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\javaApps\java8\lib\src\main\java\java8" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\javaApps\java8" />
       <recent name="C:\Users\USER\javaApps\java8\lib\src\main\java\java8\MethodReference" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="java8.MethodReference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.merhodeReference">
+  <component name="RunManager" selected="Application.OPTIONAL">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.Library" />
       <module name="java8.lib.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java8.MethodReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OPTIONAL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.MethodReference.Optional.OPTIONAL" />
+      <module name="java8.lib.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.MethodReference.Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OPTIONAL" />
         <item itemvalue="Application.merhodeReference" />
         <item itemvalue="Application.Library" />
       </list>

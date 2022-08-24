@@ -13,6 +13,29 @@ is used to refer method of functional interface.
 * [Reference](https://www.javatpoint.com/java-8-method-reference)
 * [my work ](lib/src/main/java/java8/MethodReference)
 
+## Functional Interface
+- An Interface that contains only one abstract method is known as functional interface.
+## default methode in interface
+- in java 8 you can add un abstract methode
+>  default void java8Defult(){
+System.out.println("I am default");
+}
+
+## Optional Class
+- It is a public final class and used to deal with NullPointerException in Java application
+>  Optional<String> checkNull
+= Optional.ofNullable(words[5]);
+
+- isPresent() : to check if not null
+- get(): to get the value
+- [my work](lib/src/main/java/java8/Optional)
+
+## forEach
+- ava provides a new method forEach() to iterate the elements. It is defined in Iterable and Stream interfaces
+## Nashorn JavaScript Engine
+
+
 ## ref
 1. [ref](https://www.javatpoint.com/java-8-features)
 2. [ref2](https://www.javatpoint.com/java-8-method-reference)
+3. [ref2](https://www.geeksforgeeks.org/java-8-optional-class/)
