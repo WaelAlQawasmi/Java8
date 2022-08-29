@@ -33,8 +33,18 @@ System.out.println("I am default");
 ## forEach
 - ava provides a new method forEach() to iterate the elements. It is defined in Iterable and Stream interfaces
 ## Nashorn JavaScript Engine
+- you can run js code by after read the file
 
+## StringJoiner
+- StringJoiner is a class in java.util package is
+ used to construct a sequence of characters(strings) 
+separated by a delimiter and optionally starting with
+ a supplied prefix and ending with a given suffix
+- [my work](lib/src/main/java/java8/StringJoiner)
 
+## Stream
+Introduced in Java 8, the Stream API is used to process collections of objects. A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
+- [my work](lib/src/main/java/java8/Stream)
 ## ref
 1. [ref](https://www.javatpoint.com/java-8-features)
 2. [ref2](https://www.javatpoint.com/java-8-method-reference)
